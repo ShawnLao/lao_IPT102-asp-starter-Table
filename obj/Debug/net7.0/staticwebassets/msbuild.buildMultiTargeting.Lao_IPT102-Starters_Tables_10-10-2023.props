@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lao_IPT102-Starters_Tables_10-10-2023.props" />
+</Project>

@@ -1,0 +1,44 @@
+﻿.navbar 
+{
+    background-color: #ff0000;
+}
+
+/*#lao_tablepagebody1
+{
+    height: 1000px;
+    width: 1090px;
+    overflow-x: hidden;
+}
+*/
+
+.lao_TableMov1
+{
+    position: relative;
+    left: 0px;
+    margin-bottom: 120px;
+  
+}
+
+.lao_label1
+{
+    margin-top: 40px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) 
+{
+
+    background-color: #d4ddff;
+}
+
+#lao_tableheader1 
+{
+    background-color: #236de1;
+    color: #ffffff;
+   
+}
+
+.tbody
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

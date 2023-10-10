@@ -1,0 +1,101 @@
+﻿@model List<lao_CivlianInfoModel>
+
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<title>
+			@ViewData["Title"] Lao's Table
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="~/css/lao_Layout_css.css" />
+
+	</head>
+
+	<body id="lao_tablepagebody1">
+
+		<form>
+		
+			
+			<div>
+
+				<h2 class="lao_label1">[Lao] Civilian Info Table	</h2>
+
+				<br />
+				<br />
+				<br />
+
+				<div class="lao_TableMov1">
+				@* Lao's table *@
+				<table class="table table-borderless table-striped table-hover" id="lao_table">
+					
+					<thead  id="lao_tableheader1">
+						<tr>
+							<th>Lastname</th>
+							<th>FirstName</th>
+							<th>Middle Initial</th>
+							<th>Phone Number</th>
+						</tr>
+					</thead>
+
+					<tbody>
+
+						@foreach (var lao_CivilInfos in Model)
+						{
+						<tr>
+
+							<td> @lao_CivilInfos.civilian_Lastname </td>
+							<td> @lao_CivilInfos.civilian_Firstname</td>
+							<td> @lao_CivilInfos.civilian_MiddleInitial</td>
+							<td> @lao_CivilInfos.civilian_PhoneNumber </td>
+							
+						</tr>
+					    }
+
+					</tbody>
+
+
+					<tfoot>
+
+					</tfoot>
+
+				</table>
+			@* Lao's table *@
+			</div>
+
+			
+			</div>
+
+
+
+		</form>
+
+
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+
+	<script type="text/javascript">
+
+		var js = jQuery.noConflict(true);
+		js(document).ready(function () {
+			js('#lao_table').DataTable({
+			});
+
+		});
+
+	</script>
+
+
+	</body>
+
+ 
+	<foot>
+
+	</foot>
+
+
+</html>

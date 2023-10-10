@@ -1,37 +1,8 @@
-﻿@model StudentInfoModel[]
-<style>
-.student-table {
-    width: 100%
+﻿@{
+    ViewData["Title"] = "Home Page";
 }
-.student-table th {
-border: 1px solid #9c9c9c;
-padding: 8px 12px;
-background: #ffd7d7;
-}
-.student-table td {
-padding: 4px 8px;
-border: 1px solid #d6d6d6;
-}
-</style>
 
-<h1>Sample Student Information</h1>
-
-<table border="1" class="student-table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Student ID</th>
-            <th>Age</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var student in Model)
-        {
-            <tr>
-                <td>@student.Name</td>
-                <td>@student.StudentId</td>
-                <td>@student.StudentAge</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

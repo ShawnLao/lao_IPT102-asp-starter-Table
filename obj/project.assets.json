@@ -8,24 +8,32 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/jescultura/.nuget/packages/": {}
+    "C:\\Users\\Buan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jescultura/personal/dotnetsample/dotnetsample.csproj",
-      "projectName": "dotnetsample",
-      "projectPath": "/Users/jescultura/personal/dotnetsample/dotnetsample.csproj",
-      "packagesPath": "/Users/jescultura/.nuget/packages/",
-      "outputPath": "/Users/jescultura/personal/dotnetsample/obj/",
+      "projectUniqueName": "C:\\Users\\Buan\\Desktop\\ASP.NET-CODE-PRACTICE\\Lao_IPT102-Starters_Tables_10-10-2023\\Lao_IPT102-Starters_Tables_10-10-2023.csproj",
+      "projectName": "Lao_IPT102-Starters_Tables_10-10-2023",
+      "projectPath": "C:\\Users\\Buan\\Desktop\\ASP.NET-CODE-PRACTICE\\Lao_IPT102-Starters_Tables_10-10-2023\\Lao_IPT102-Starters_Tables_10-10-2023.csproj",
+      "packagesPath": "C:\\Users\\Buan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Buan\\Desktop\\ASP.NET-CODE-PRACTICE\\Lao_IPT102-Starters_Tables_10-10-2023\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/jescultura/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Buan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
